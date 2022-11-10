@@ -38,7 +38,7 @@ a:hover {
 .features-menu {
   background-color: #B2D6FF;
   padding-top: 60px;
-  display: flex;
+  display: none;
   flex-direction: column;
   border-radius: 5px;
   position: absolute;
@@ -62,4 +62,9 @@ a:hover {
   z-index: 2;
   position: relative;
   cursor: pointer;
+}
+.dropdown:hover .features-menu {
+  display: flex;
+  background: #B2D6FF;
+  flex-direction: column;
 }
