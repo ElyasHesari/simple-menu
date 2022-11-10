@@ -41,6 +41,9 @@ a:hover {
   display: flex;
   flex-direction: column;
   border-radius: 5px;
+  position: absolute;
+  top: -25px;
+  left: -30px;
 }
 .features-menu > li {
   list-style: none;
@@ -50,4 +53,7 @@ a:hover {
 }
 .features-menu > li:last-of-type {
   border-bottom: none;
+}
+.dropdown {
+  position: relative;
 }
