@@ -35,3 +35,19 @@ a:hover {
 .menu > li:last-of-type {
   margin-right: 0;
 }
+.features-menu {
+  background-color: #B2D6FF;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+.features-menu > li {
+  list-style: none;
+  border-bottom: 1px solid #fff;
+  padding: 0 40px 10px 20px;
+  margin: 10px;
+}
+.features-menu > li:last-of-type {
+  border-bottom: none;
+}
