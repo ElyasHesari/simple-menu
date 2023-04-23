@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'vazir';
+  src: url('fonts/vazir.eot'); 
+  src: url('fonts/vazir.ttf')  format('truetype'), 
+       url('fonts/vazir.woff2') format('woff2'), 
+       url('fonts/vazir.woff') format('woff');
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,8 +14,9 @@
 body {
   height: 1200px;
   color: #5D6063;
-  font-family: cursive;
-  font-size: 18px;
+  font-family: 'vazir';
+  font-size: 14px;
+  direction: rtl;
 }
 a:link,
 a:visited {
@@ -19,10 +28,10 @@ a:hover {
 }
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
   position: fixed;
   width: 100%;
-  padding: 50px;
+  padding: 20px;
   background-color: #D6E9FE;
 }
 .menu {
@@ -32,9 +41,7 @@ a:hover {
   margin-right: 50px;
   display: inline;
 }
-.menu > li:last-of-type {
-  margin-right: 0;
-}
+
 .features-menu {
   background-color: #B2D6FF;
   padding-top: 60px;
@@ -49,8 +56,9 @@ a:hover {
 .features-menu > li {
   list-style: none;
   border-bottom: 1px solid #fff;
-  padding: 0 40px 10px 20px;
-  margin: 10px;
+  padding: 0 20px 10px 20px;
+  margin: 18px;
+  font-size: 12px;
 }
 .features-menu > li:last-of-type {
   border-bottom: none;
